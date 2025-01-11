@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Arrays;
 public class ArrayUse {
-    public static void main(String[] args) {
+    public static int[] takeInput(){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of the array: ");
         int size = sc.nextInt();
@@ -10,9 +10,24 @@ public class ArrayUse {
         for (int i = 0; i < size; i++) {
             input[i] = sc.nextInt();
         }
+        return input;
+    }
+    public static void print(int input[]){
+        int size=input.length;
+        System.out.println("The elements are: ");
         for (int i = 0; i < size; i++) {
-            System.out.println("The elements are: " + input[i]);
+            System.out.print(input[i]+" ");
+            
         }
-        System.out.println("The array is: " + Arrays.toString(input)); //array to string
+        System.out.println();
+        System.out.println("the elements are: "+ Arrays.toString(input));
+    }
+
+
+    public static void main(String[] args) {
+        int arr[]=takeInput();
+        print(arr);
+        
+        
     }
 }
