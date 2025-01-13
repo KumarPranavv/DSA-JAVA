@@ -1,9 +1,12 @@
 
 public class Demo {
+    public static void change(int input[]){
+        input[0]=15;
+
+    }
     public static void main(String[] args) {
         int[] arr=new int[5];
-        arr[1]=4;
-        arr = new int[2];
+        change(arr);
         System.out.println(arr[0]);
     }
 }
