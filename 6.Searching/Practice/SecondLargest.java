@@ -18,8 +18,8 @@ public class SecondLargest{
 
     }
     public static void main(String[] args){
-        int[] arr={4,7,13,76,25,9,8,19};
-        int ans=second(arr);
-        System.out.println("Second largest element is: "+ans);
+        int[] arr={4,7,13,25,9,8,19};
+
+        System.out.println("Second largest element is: "+second(arr));
     }
 }
