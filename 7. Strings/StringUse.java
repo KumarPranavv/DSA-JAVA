@@ -5,5 +5,6 @@ public class StringUse {
         String str="abcdefgh";
         System.out.println(str.charAt(1));
         System.out.println("Length of String: "+str.length());
+        System.out.println("Substring: "+str.substring(1,6));
     }
 }
