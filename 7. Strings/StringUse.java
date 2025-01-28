@@ -9,6 +9,6 @@ public class StringUse {
         System.out.println(str.substring(3)); // begin/start print all from begin index
         System.out.println(str.substring(0)); // similar as print(str)
         System.out.println(str.substring(str.length())); //empty string
-        System.out.println(str.contains("cde"));
+        System.out.println(str.contains("cdf"));
     }
 }
