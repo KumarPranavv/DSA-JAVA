@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 public class CountWords {
     public static void count(String s){
         int c=0;
