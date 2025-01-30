@@ -11,7 +11,7 @@ public class StringUse {
         String str="abcdefgh";
         str="abc";
         
-       // print(str);
+        print(str);
         str=str+"def";
         System.out.println(str);
         /*System.out.println(str.charAt(1));
