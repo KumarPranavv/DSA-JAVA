@@ -14,7 +14,8 @@ public class StringUse {
       //  print(str);
         str=str+"def";
         System.out.println(str);
-        System.out.println(str.concat("ghi"));
+        System.out.println(str.concat("ghi")); // only adds here not to the main
+
         /*System.out.println(str.charAt(1));
         System.out.println("Length of String: "+str.length());
         System.out.println("Substring: "+str.substring(1,6)); //end index is not included in this 
