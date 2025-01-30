@@ -7,7 +7,22 @@ public class StringUse {
         }
     }
     public static void main(String[] args) {
-        char c='c';
+        int[] arr1={1,2,3};
+        //int[] arr2={1,2,3}; now
+        int[] arr2=arr1;
+        if(arr1==arr2){ //refers the address of arr1 and arr2 , that must be different 
+            System.out.println("equal");
+            
+        }else{
+            System.out.println("Not equal");
+
+        }
+        System.out.println(arr1);
+        System.out.println(arr2);
+
+
+
+       /* char c='c';
         String str="abcdefgh";
         str="abc";
         
