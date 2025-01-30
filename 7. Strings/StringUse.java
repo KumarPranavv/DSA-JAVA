@@ -9,7 +9,11 @@ public class StringUse {
     public static void main(String[] args) {
         char c='c';
         String str="abcdefgh";
-        print(str);
+        str="abc";
+        
+       // print(str);
+        str=str+"def";
+        System.out.println(str);
         /*System.out.println(str.charAt(1));
         System.out.println("Length of String: "+str.length());
         System.out.println("Substring: "+str.substring(1,6)); //end index is not included in this 
