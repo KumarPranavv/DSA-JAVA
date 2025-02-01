@@ -2,12 +2,9 @@ public class SubString{
     public static void print(String s){
         int n=s.length();
         for(int i=0;i<n;++i){
-            for(int j=i;j<n;++j){
-                for(int k=i;k<n;++k){
-                    System.out.print(s.charAt(k));
-                }
+            for(int j=i+1;j<=n;j++){
+                System.out.println(s.substring(i,j));
             }
-            System.out.println("");
         }
     }
     public static void main(String[] args){
