@@ -10,6 +10,7 @@ public class Reverse{
             }
             i--;
         }
+        result+=s.substring(i+1,end);
         return result;
 
 
