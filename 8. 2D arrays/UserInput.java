@@ -14,6 +14,7 @@ public class UserInput{
                 input[i][j]=sc.nextInt();
             }
         }
+        System.out.println("The array is: ");
         for(int i=0;i<rows;i++){
             for(int j=0;j<colms;j++){
                 System.out.print(input[i][j]+" ");
