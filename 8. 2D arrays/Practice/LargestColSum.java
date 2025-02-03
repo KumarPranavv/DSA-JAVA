@@ -46,6 +46,8 @@ public class LargestColSum{
 
     }
     public static void main(String args[]){
-
+        int[][] input=takeInput();
+        System.out.println(col(input));
+        
     }
 }
