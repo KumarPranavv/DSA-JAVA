@@ -21,7 +21,7 @@ public class Functions{
     public static void print(int[][] input){
         int rows=input.length;
         int cols=input[0].length;
-
+        System.out.println("The Array is : ");
         for(int i=0;i<rows;i++){
             for(int j=0;j<cols;j++){
                 System.out.print(input[i][j]+" ");
@@ -30,7 +30,11 @@ public class Functions{
         }
     }
     public static void main(String[] args){
-        int arr2[][]={{1,2,3},{1,2,3}};
-        print(arr2);
+        //int arr2[][]={{1,2,3},{1,2,3}};
+
+        //print(arr2);
+        int arr[][]=takeInput();
+        print(arr);
+
     }
 }
