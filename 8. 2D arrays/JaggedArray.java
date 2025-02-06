@@ -13,6 +13,7 @@ public class JaggedArray{
             arr2[i]=new int[2];
             System.out.println(arr2[i]);
         }
+        System.out.println(arr2[0][0]);
 
     }
 }
