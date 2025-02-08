@@ -21,7 +21,7 @@ public class RemoveDuplicates{
 
     }
     public static void main(String[] args){
-        String s="aadddgghhhhaaa";
+        String s="aabccbaa";
         System.out.println(remove(s));
     }
 }
