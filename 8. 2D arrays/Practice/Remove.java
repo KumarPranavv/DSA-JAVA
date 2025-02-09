@@ -11,6 +11,8 @@ public class Remove{
 
     }
     public static void main(String[] args){
-
+        String str="aabbccbbaa";
+        char ch='a';
+        System.out.println(removeChar(str,ch));
     }
 }
