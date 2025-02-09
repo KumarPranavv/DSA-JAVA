@@ -11,8 +11,8 @@ public class Remove{
 
     }
     public static void main(String[] args){
-        String str="xxxyzxxayzya";
-        char ch='y';
+        String str="xxxyzxxayzyxxy";
+        char ch='x';
         System.out.println(removeChar(str,ch));
     }
 }
