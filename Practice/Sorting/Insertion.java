@@ -15,6 +15,8 @@ public class Insertion{
     public static void main(String[] args){
         int arr[]={67,24,45,32,8,54};
         sort(arr);
-
+        for(int i=0;i<arr.length;i++){
+            System.out.print(arr[i]+" ");
+        }
     }
 }
