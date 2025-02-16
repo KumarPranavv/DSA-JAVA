@@ -79,7 +79,7 @@ public class Merge{
     // Driver code
     public static void main(String args[])
     {
-        int arr[] = { 12, 0, 1, 5, 45,23 };
+        int arr[] = { 12, 0, 1, 5,23 };
 
         System.out.println("Given array is");
         printArray(arr);
