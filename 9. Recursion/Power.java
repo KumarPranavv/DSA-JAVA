@@ -18,8 +18,8 @@ public class Power{
         }
     }
     public static void main(String[] args){
-        int x=4;
-        int n=3;
+        int x=3;
+        int n=4;
         int ans=pow(x,n);
         System.out.println(ans);
     }
