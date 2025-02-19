@@ -7,7 +7,7 @@ public class Factorial{
         return n*smallAns;
     }
     public static void main(String[] args){
-        int n=6;
+        int n=7;
         int ans=fact(n);
         System.out.println(ans);
     }
