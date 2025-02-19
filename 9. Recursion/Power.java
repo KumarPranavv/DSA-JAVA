@@ -19,7 +19,7 @@ public class Power{
     }
     public static void main(String[] args){
         int x=2;
-        int n=8;
+        int n=6;
         int ans=pow(x,n);
         System.out.println(ans);
     }
