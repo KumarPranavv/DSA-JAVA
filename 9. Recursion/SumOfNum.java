@@ -6,7 +6,7 @@ public class SumOfNum{
         return sum(n-1)+n;
     }
     public static void main(String[] args){
-        int n=100;
+        int n=67;
         int ans= sum(n);
         System.out.println(ans);
     }
