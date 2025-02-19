@@ -8,6 +8,7 @@ public class Print{
         System.out.print(n+" ");
     }
     public static void main(String[] args){
-        
+        int n=20;
+        print(n);
     }
 }
