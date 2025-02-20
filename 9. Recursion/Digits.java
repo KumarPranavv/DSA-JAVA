@@ -7,6 +7,7 @@ public class Digits{
         return smallAns+1;
     }
     public static void main(String[] args){
-        
+        int n =24818399;
+        System.out.println(count(n));
     }
 }
