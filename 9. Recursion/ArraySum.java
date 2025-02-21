@@ -11,6 +11,7 @@ public class ArraySum{
         return sum(arr,0);
     }
     public static void main(String[] args){
-        
+        int arr[]={10,20,30,50,150};
+        System.out.println(sum(arr));
     }
 }
