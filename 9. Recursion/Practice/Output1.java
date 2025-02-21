@@ -4,7 +4,7 @@ public class Output1{
             return;
         }
         System.out.print(n+" ");
-        print(n-1);
+        print(n-2);
 
     }
     public static void main(String[] args){
