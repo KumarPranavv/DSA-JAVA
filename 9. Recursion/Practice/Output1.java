@@ -8,7 +8,7 @@ public class Output1{
 
     }
     public static void main(String[] args){
-        int num=8;
+        int num=10;
         print(num);
     }
 }
