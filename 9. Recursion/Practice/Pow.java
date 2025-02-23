@@ -9,7 +9,7 @@ public class Pow{
         return ans*x;
     }
     public static void main(String[] args){
-        int x=5, n=3;
-        System.out.println(pow(x,n));
+        int x=7, n=3;
+        System.out.println("The ans is: "+pow(x,n));
     }
 }
