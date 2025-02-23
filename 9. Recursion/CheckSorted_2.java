@@ -12,15 +12,13 @@ public class CheckSorted_2{
             smallArr[i-1]=arr[i];
         }
         boolean ans=check(smallArr);
-        if(!ans){
-            return false;
-        }
-        if(arr[0]<=arr[1]){
+        if(ans){
             return true;
         }
         else{
             return false;
         }
+        
     }
 
     public static void main(String[] args){
