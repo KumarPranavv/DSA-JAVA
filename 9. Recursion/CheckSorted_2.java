@@ -12,12 +12,13 @@ public class CheckSorted_2{
             smallArr[i-1]=arr[i];
         }
         boolean ans=check(smallArr);
-        if(ans){
+        return ans;
+        /*if(ans){ equivalent to return ans
             return true;
         }
         else{
             return false;
-        }
+        }*/
         
     }
 
