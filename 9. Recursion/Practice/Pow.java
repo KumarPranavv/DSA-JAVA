@@ -4,11 +4,12 @@ public class Pow{
             return 1;
 
         }
+
         int ans=pow(x,n-1);
         return ans*x;
     }
     public static void main(String[] args){
-        int x=0, n=3;
+        int x=5, n=3;
         System.out.println(pow(x,n));
     }
 }
