@@ -8,6 +8,7 @@ public class Pow{
         return ans*x;
     }
     public static void main(String[] args){
-
+        int x=2, n=3;
+        System.out.println(pow(x,n));
     }
 }
