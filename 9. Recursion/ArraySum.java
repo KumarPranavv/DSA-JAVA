@@ -11,7 +11,7 @@ public class ArraySum{
         return sum(arr,0);
     }
     public static void main(String[] args){
-        int arr[]={10,20,90,50,100};
+        int arr[]={10,20,90,50,100,900};
         System.out.println("The sum is: "+sum(arr));
     }
 }
