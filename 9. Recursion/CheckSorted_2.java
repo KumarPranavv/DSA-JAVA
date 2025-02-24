@@ -23,7 +23,7 @@ public class CheckSorted_2{
     }
 
     public static void main(String[] args){
-        int[] arr={2,1,3,4,5,8};
+        int[] arr={2,1,4,5,8};
         System.out.println(check(arr));
     }
 }
