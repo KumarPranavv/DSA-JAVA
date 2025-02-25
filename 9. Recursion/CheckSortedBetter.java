@@ -11,7 +11,7 @@ public class CheckSortedBetter{
 
     }
     public static void main(String[] args){
-        int arr[]={4,7,9,12,45};
+        int arr[]={4,7,9,12,45,8};
         System.out.println(check(arr,0));
     }
 }
