@@ -8,9 +8,10 @@ public class CheckSortedBetter{
             return false;
         }
         return check(arr,startIndex+1);
-        
+
     }
     public static void main(String[] args){
-
+        int arr[]={4,7,9,12,45};
+        System.out.println(check(arr,0));
     }
 }
