@@ -4,7 +4,7 @@ public class CheckElement{
         if(n==startIndex){
             return false;
         }
-        if(startIndex==X){
+        if(arr[startIndex]==X){
             return true;
         }
         return check(arr, startIndex+1, X);
@@ -13,6 +13,6 @@ public class CheckElement{
     
     public static void main(String[] args){
         int arr[]={2,5,6,9};
-        System.out.println(check(arr,0,2));
+        System.out.println(check(arr,0,6));
     }
 }
