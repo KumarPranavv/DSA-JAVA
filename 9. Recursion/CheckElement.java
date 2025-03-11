@@ -12,7 +12,7 @@ public class CheckElement{
     }    
     
     public static void main(String[] args){
-        int arr[]={2,5,6,9,7};
+        int arr[]={2,5,6,7};
         System.out.println(check(arr,0,4));
     }
 }
