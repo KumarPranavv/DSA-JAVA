@@ -16,6 +16,10 @@ public class Knapsack{
         return dp[n][capacity];
     }
     public static void main(String[] args){
-
+        int[] weights={4,5,1};
+        int[] values={1,2,3};
+        int capacity=4;
+        int n=3;
+        System.out.println(knapsack(capacity,weights,values,n));
     }
 }
