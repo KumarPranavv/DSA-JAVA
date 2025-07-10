@@ -15,7 +15,7 @@ public class ValidMounation{
         return l==r;
     }
     public static void main(String[] args){
-        int[] arr={0,3,2,1};
+        int[] arr={0,3,2};
         System.out.println(valid(arr));
     }
 }
