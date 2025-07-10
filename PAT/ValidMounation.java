@@ -1,7 +1,7 @@
 public class ValidMounation{
     public static boolean valid(int[] arr){
         int n=arr.length;
-        if(n<=3){
+        if(n<3){
             return false;
         }
         int l=0;
